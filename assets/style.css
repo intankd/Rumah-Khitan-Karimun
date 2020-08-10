@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.banner {
+  width: 100%;
+  max-height: 300px;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(2, 95, 22);
+}
+
+.navbar a {
+  font-weight: bold;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a.button-maroon {
+  background-color: #5c0a0a;
+  border-radius: 30%;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 70%;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 8px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+
+h2 {
+  color: #5c0a0a;
+  text-align: center;
+}
+  
+h3 {
+  color: #043d04;
+  text-align: center;
+}
+
+img.blog {
+  width: 50%;
+  padding: 20px;
+}
+
+a.readmore {
+  color: white;
+  background-color: #5c0a0a;
+  border-radius: 30%;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a.readmore:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+aside {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+img.testimoni {
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+}
+
+img.webmaster {
+  border: 2px solid black;
+  border-radius: 50%;  
+  width: 60px;  
+}
+
+a.webmaster {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: #000;
+  font-size: 18px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  color: white;
+  background-color: rgb(2, 95, 22);
+}
+
+a.rkk {
+  width: 35px;
+  height: 35px;
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+
+  img.blog {
+    width: 100%; 
+  }
+}
